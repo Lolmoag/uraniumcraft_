@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "uraniumcraft:item/dev_sword"
+  }
+}
