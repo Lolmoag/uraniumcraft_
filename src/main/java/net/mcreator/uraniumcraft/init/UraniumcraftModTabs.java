@@ -17,11 +17,6 @@ public class UraniumcraftModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(UraniumcraftModItems.ELEMENTALGOLEM_SPAWN_EGG.get());
-			tabData.accept(UraniumcraftModItems.DEVSWORD.get());
-		}
-
-		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(UraniumcraftModItems.SUMMONINGTOTEM.get());
 		}
 	}
 }

@@ -11,13 +11,9 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.item.Item;
 
-import net.mcreator.uraniumcraft.item.SummoningtotemItem;
-import net.mcreator.uraniumcraft.item.DevswordItem;
 import net.mcreator.uraniumcraft.UraniumcraftMod;
 
 public class UraniumcraftModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, UraniumcraftMod.MODID);
 	public static final RegistryObject<Item> ELEMENTALGOLEM_SPAWN_EGG = REGISTRY.register("elementalgolem_spawn_egg", () -> new ForgeSpawnEggItem(UraniumcraftModEntities.ELEMENTALGOLEM, -10079488, -16751104, new Item.Properties()));
-	public static final RegistryObject<Item> DEVSWORD = REGISTRY.register("devsword", () -> new DevswordItem());
-	public static final RegistryObject<Item> SUMMONINGTOTEM = REGISTRY.register("summoningtotem", () -> new SummoningtotemItem());
 }

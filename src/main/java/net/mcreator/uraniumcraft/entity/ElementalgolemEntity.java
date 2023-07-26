@@ -14,7 +14,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
-import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.player.Player;
@@ -26,10 +25,8 @@ import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnGroupData;
 import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
@@ -38,7 +35,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.DifficultyInstance;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerBossEvent;
@@ -48,15 +44,8 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.nbt.CompoundTag;
 
-import net.mcreator.uraniumcraft.procedures.ElementalgolemOnInitialEntitySpawnProcedure;
-import net.mcreator.uraniumcraft.procedures.ElementalgolemLoopExternalAnimationsProcedure;
-import net.mcreator.uraniumcraft.procedures.ElementalgolemLoopExternalAnimationProcedure;
-import net.mcreator.uraniumcraft.procedures.ElementalgolemEntityDieProcedure;
 import net.mcreator.uraniumcraft.init.UraniumcraftModEntities;
-
-import javax.annotation.Nullable;
 
 public class ElementalgolemEntity extends Monster implements GeoEntity {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(ElementalgolemEntity.class, EntityDataSerializers.BOOLEAN);
@@ -156,19 +145,6 @@ public class ElementalgolemEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
-	public void die(DamageSource source) {
-		super.die(source);
-		ElementalgolemEntityDieProcedure.execute(this);
-	}
-
-	@Override
-	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
-		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		ElementalgolemOnInitialEntitySpawnProcedure.execute(this);
-		return retval;
-	}
-
-	@Override
 	public void baseTick() {
 		super.baseTick();
 		this.refreshDimensions();
@@ -263,10 +239,6 @@ public class ElementalgolemEntity extends Monster implements GeoEntity {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		String condition = ElementalgolemLoopExternalAnimationsProcedure.execute(entity);
-		if (!condition.equals("empty"))
-			this.animationprocedure = condition;
-		loop = ElementalgolemLoopExternalAnimationProcedure.execute(entity);
 		if (!loop && this.lastloop) {
 			this.lastloop = false;
 			event.getController().setAnimation(RawAnimation.begin().thenPlay(this.animationprocedure));

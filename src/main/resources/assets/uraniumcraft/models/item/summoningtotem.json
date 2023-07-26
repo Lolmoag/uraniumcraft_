@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "uraniumcraft:item/teste_st"
-  }
-}
