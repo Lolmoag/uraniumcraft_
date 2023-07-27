@@ -6,9 +6,10 @@ license="Academic Free License v3.0"
 modId="uraniumcraft"
 version="1.0.0"
 displayName="uraniumcraft"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="created by lolmoag and frivolus"
 displayURL="https://mcreator.net"
-authors="Pc130, MCreator"
+authors="lolmoag"
+description="a mod based on the radioactive systeme"
 
 [[dependencies.uraniumcraft]]
     modId="minecraft"

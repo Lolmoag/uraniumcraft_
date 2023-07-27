@@ -33,7 +33,8 @@
     "modid": "uraniumcraft",
     "modName": "uraniumcraft",
     "version": "1.0.0",
-    "author": "Pc130, MCreator",
+    "description": "a mod based on the radioactive systeme",
+    "author": "lolmoag",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -45,7 +46,7 @@
       "geckolib"
     ],
     "currentGenerator": "forge-1.19.4",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "created by lolmoag and frivolus",
     "modElementsPackage": "net.mcreator.uraniumcraft",
     "lockBaseModFiles": false
   },
