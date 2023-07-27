@@ -29,6 +29,47 @@
           "src/main/resources/assets/uraniumcraft/models/item/radiumdust.json"
         ]
       }
+    },
+    {
+      "name": "Poloniumingot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/item/poloniumingot.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Poloniumdust",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumdust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumdustItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/poloniumdust.json"
+        ]
+      }
+    },
+    {
+      "name": "Poloniumingotcraft",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumingotcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/poloniumingotcraft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -36,8 +77,7 @@
   "language_map": {
     "en_us": {
       "item.uraniumcraft.elementalgolem_spawn_egg": "Elementalgolem Spawn Egg",
-      "entity.uraniumcraft.elementalgolem": "Elementalgolem",
-      "item.uraniumcraft.radiumdust": "Radiumdust"
+      "entity.uraniumcraft.elementalgolem": "Elementalgolem"
     }
   },
   "foldersRoot": {
