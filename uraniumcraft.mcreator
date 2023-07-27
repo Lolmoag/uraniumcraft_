@@ -25,8 +25,8 @@
       "registry_name": "radiumdust",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/uraniumcraft/item/RadiumdustItem.java",
-          "src/main/resources/assets/uraniumcraft/models/item/radiumdust.json"
+          "src/main/resources/assets/uraniumcraft/models/item/radiumdust.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/RadiumdustItem.java"
         ]
       }
     },
@@ -39,8 +39,8 @@
       "registry_name": "poloniumingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/uraniumcraft/models/item/poloniumingot.json",
-          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumingotItem.java"
+          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumingotItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/poloniumingot.json"
         ]
       }
     },
@@ -53,8 +53,8 @@
       "registry_name": "poloniumdust",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumdustItem.java",
-          "src/main/resources/assets/uraniumcraft/models/item/poloniumdust.json"
+          "src/main/resources/assets/uraniumcraft/models/item/poloniumdust.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumdustItem.java"
         ]
       }
     },
@@ -70,14 +70,45 @@
           "src/main/resources/data/uraniumcraft/recipes/poloniumingotcraft.json"
         ]
       }
+    },
+    {
+      "name": "Hardenediron",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardenediron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/item/HardenedironItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/hardenediron.json"
+        ]
+      }
+    },
+    {
+      "name": "Hardenedironcraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardenedironcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/hardenedironcraft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.uraniumcraft.hardenediron": "Hardenediron",
       "item.uraniumcraft.elementalgolem_spawn_egg": "Elementalgolem Spawn Egg",
-      "entity.uraniumcraft.elementalgolem": "Elementalgolem"
+      "entity.uraniumcraft.elementalgolem": "Elementalgolem",
+      "item.uraniumcraft.poloniumingot": "Polonium ingot",
+      "item.uraniumcraft.radiumdust": "Radiumdust",
+      "item.uraniumcraft.poloniumdust": "Polonium dust"
     }
   },
   "foldersRoot": {

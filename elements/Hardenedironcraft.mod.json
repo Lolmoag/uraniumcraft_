@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Hardenediron"
+        "value": "Items.RAW_IRON"
       },
       {
-        "value": "CUSTOM:Poloniumdust"
+        "value": "Items.RAW_IRON"
       },
       {
-        "value": "CUSTOM:Hardenediron"
+        "value": "Items.RAW_IRON"
       },
       {
-        "value": "CUSTOM:Poloniumdust"
+        "value": "Items.RAW_IRON"
       },
       {
-        "value": "CUSTOM:Poloniumdust"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "CUSTOM:Poloniumdust"
+        "value": "Items.RAW_IRON"
       },
       {
-        "value": "CUSTOM:Hardenediron"
+        "value": "Items.RAW_IRON"
       },
       {
-        "value": "CUSTOM:Poloniumdust"
+        "value": "Items.RAW_IRON"
       },
       {
-        "value": "CUSTOM:Hardenediron"
+        "value": "Items.RAW_IRON"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Poloniumingot"
+      "value": "CUSTOM:Hardenediron"
     },
-    "name": "poloniumingotcraft",
+    "name": "hardenedironcraft",
     "namespace": "mod"
   }
 }
