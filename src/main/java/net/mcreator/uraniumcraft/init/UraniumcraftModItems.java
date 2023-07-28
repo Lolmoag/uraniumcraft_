@@ -11,6 +11,8 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.uraniumcraft.item.UraniumingotItem;
+import net.mcreator.uraniumcraft.item.UraniumItem;
 import net.mcreator.uraniumcraft.item.RadiumdustItem;
 import net.mcreator.uraniumcraft.item.PoloniumingotItem;
 import net.mcreator.uraniumcraft.item.PoloniumdustItem;
@@ -24,4 +26,6 @@ public class UraniumcraftModItems {
 	public static final RegistryObject<Item> POLONIUMINGOT = REGISTRY.register("poloniumingot", () -> new PoloniumingotItem());
 	public static final RegistryObject<Item> POLONIUMDUST = REGISTRY.register("poloniumdust", () -> new PoloniumdustItem());
 	public static final RegistryObject<Item> HARDENEDIRON = REGISTRY.register("hardenediron", () -> new HardenedironItem());
+	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
+	public static final RegistryObject<Item> URANIUMINGOT = REGISTRY.register("uraniumingot", () -> new UraniumingotItem());
 }

@@ -97,14 +97,57 @@
           "src/main/resources/data/uraniumcraft/recipes/hardenedironcraft.json"
         ]
       }
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/item/uranium.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/UraniumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumingot",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/item/uraniumingot.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/UraniumingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumingotcraft",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumingotcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/uraniumingotcraft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.uraniumcraft.uranium": "Uranium",
       "item.uraniumcraft.hardenediron": "Hardenediron",
       "item.uraniumcraft.elementalgolem_spawn_egg": "Elementalgolem Spawn Egg",
+      "item.uraniumcraft.uraniumingot": "Uraniumingot",
       "entity.uraniumcraft.elementalgolem": "Elementalgolem",
       "item.uraniumcraft.poloniumingot": "Polonium ingot",
       "item.uraniumcraft.radiumdust": "Radiumdust",
