@@ -9,7 +9,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.uraniumcraft.item.UraniumingotItem;
 import net.mcreator.uraniumcraft.item.UraniumItem;
@@ -17,7 +19,6 @@ import net.mcreator.uraniumcraft.item.RadiumdustItem;
 import net.mcreator.uraniumcraft.item.PoloniumingotItem;
 import net.mcreator.uraniumcraft.item.PoloniumdustItem;
 import net.mcreator.uraniumcraft.item.HardenedironItem;
-import net.mcreator.uraniumcraft.block.display.RadioactivecraftingtableanimDisplayItem;
 import net.mcreator.uraniumcraft.UraniumcraftMod;
 
 public class UraniumcraftModItems {
@@ -29,6 +30,11 @@ public class UraniumcraftModItems {
 	public static final RegistryObject<Item> HARDENEDIRON = REGISTRY.register("hardenediron", () -> new HardenedironItem());
 	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
 	public static final RegistryObject<Item> URANIUMINGOT = REGISTRY.register("uraniumingot", () -> new UraniumingotItem());
-	public static final RegistryObject<Item> RADIOACTIVECRAFTINGTABLEANIM = REGISTRY.register(UraniumcraftModBlocks.RADIOACTIVECRAFTINGTABLEANIM.getId().getPath(),
-			() -> new RadioactivecraftingtableanimDisplayItem(UraniumcraftModBlocks.RADIOACTIVECRAFTINGTABLEANIM.get(), new Item.Properties()));
+	public static final RegistryObject<Item> POLONIUMORE = block(UraniumcraftModBlocks.POLONIUMORE);
+	public static final RegistryObject<Item> RADIUMORE = block(UraniumcraftModBlocks.RADIUMORE);
+	public static final RegistryObject<Item> URANIUMORE = block(UraniumcraftModBlocks.URANIUMORE);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

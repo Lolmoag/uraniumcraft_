@@ -1,7 +1,0 @@
-
-{
-  "parent": "uraniumcraft:displaysettings/model.animation",
-  "textures": {
-    "particle": "uraniumcraft:block/radio_crafttable"
-  }
-}

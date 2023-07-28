@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "uraniumcraft:block/need_a_texture",
+    "up": "uraniumcraft:block/need_a_texture",
+    "north": "uraniumcraft:block/need_a_texture",
+    "east": "uraniumcraft:block/need_a_texture",
+    "south": "uraniumcraft:block/need_a_texture",
+    "west": "uraniumcraft:block/need_a_texture",
+    "particle": "uraniumcraft:block/need_a_texture"
+  },
+  "render_type": "solid"
+}

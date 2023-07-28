@@ -25,7 +25,9 @@ public class UraniumcraftModTabs {
 					tabData.accept(UraniumcraftModItems.HARDENEDIRON.get());
 					tabData.accept(UraniumcraftModItems.URANIUM.get());
 					tabData.accept(UraniumcraftModItems.URANIUMINGOT.get());
-					tabData.accept(UraniumcraftModBlocks.RADIOACTIVECRAFTINGTABLEANIM.get().asItem());
+					tabData.accept(UraniumcraftModBlocks.POLONIUMORE.get().asItem());
+					tabData.accept(UraniumcraftModBlocks.RADIUMORE.get().asItem());
+					tabData.accept(UraniumcraftModBlocks.URANIUMORE.get().asItem());
 				})
 
 		);

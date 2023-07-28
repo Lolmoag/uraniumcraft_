@@ -1,11 +1,13 @@
 {
+  "block.uraniumcraft.radiumore": "Radiumore",
+  "item.uraniumcraft.uraniumingot": "Uraniumingot",
+  "item_group.uraniumcraft.uraniumcraft": "Uraniumcraft",
   "item.uraniumcraft.uranium": "Uranium",
   "item.uraniumcraft.hardenediron": "Hardenediron",
   "item.uraniumcraft.elementalgolem_spawn_egg": "Elementalgolem Spawn Egg",
-  "item.uraniumcraft.uraniumingot": "Uraniumingot",
+  "block.uraniumcraft.poloniumore": "Poloniumore",
   "entity.uraniumcraft.elementalgolem": "Elementalgolem",
-  "item_group.uraniumcraft.uraniumcraft": "Uraniumcraft",
-  "block.uraniumcraft.radioactivecraftingtableanim": "Radioactivecraftingtableanim",
+  "block.uraniumcraft.uraniumore": "Uraniumore",
   "item.uraniumcraft.poloniumingot": "Polonium ingot",
   "item.uraniumcraft.radiumdust": "Radiumdust",
   "item.uraniumcraft.poloniumdust": "Polonium dust"
