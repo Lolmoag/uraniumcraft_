@@ -17,7 +17,6 @@ import net.mcreator.uraniumcraft.item.RadiumdustItem;
 import net.mcreator.uraniumcraft.item.PoloniumingotItem;
 import net.mcreator.uraniumcraft.item.PoloniumdustItem;
 import net.mcreator.uraniumcraft.item.HardenedironItem;
-import net.mcreator.uraniumcraft.block.display.RadioactivecraftingtableanimDisplayItem;
 import net.mcreator.uraniumcraft.UraniumcraftMod;
 
 public class UraniumcraftModItems {
@@ -29,6 +28,4 @@ public class UraniumcraftModItems {
 	public static final RegistryObject<Item> HARDENEDIRON = REGISTRY.register("hardenediron", () -> new HardenedironItem());
 	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
 	public static final RegistryObject<Item> URANIUMINGOT = REGISTRY.register("uraniumingot", () -> new UraniumingotItem());
-	public static final RegistryObject<Item> RADIOACTIVECRAFTINGTABLEANIM = REGISTRY.register(UraniumcraftModBlocks.RADIOACTIVECRAFTINGTABLEANIM.getId().getPath(),
-			() -> new RadioactivecraftingtableanimDisplayItem(UraniumcraftModBlocks.RADIOACTIVECRAFTINGTABLEANIM.get(), new Item.Properties()));
 }
