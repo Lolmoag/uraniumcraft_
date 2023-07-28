@@ -138,6 +138,84 @@
           "src/main/resources/data/uraniumcraft/recipes/uraniumingotcraft.json"
         ]
       }
+    },
+    {
+      "name": "Uraniumcraft",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumcraft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Radioactivecraftingtablegui",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivecraftingtablegui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/world/inventory/RadioactivecraftingtableguiMenu.java",
+          "src/main/java/net/mcreator/uraniumcraft/client/gui/RadioactivecraftingtableguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Radiactivecraftingtablecraftprocedure",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiactivecraftingtablecraftprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/procedures/RadiactivecraftingtablecraftprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radioactivecraftingtableanim",
+      "type": "animatedblock",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivecraftingtableanim",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/custom/radioactivecraftingtableanim_particle.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/model/RadioactivecraftingtableanimBlockModel.java",
+          "src/main/resources/assets/uraniumcraft/models/item/radioactivecraftingtableanim.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/RadioactivecraftingtableanimBlock.java",
+          "src/main/java/net/mcreator/uraniumcraft/block/display/RadioactivecraftingtableanimDisplayItem.java",
+          "src/main/java/net/mcreator/uraniumcraft/block/renderer/RadioactivecraftingtableanimTileRenderer.java",
+          "src/main/java/net/mcreator/uraniumcraft/block/model/RadioactivecraftingtableanimDisplayModel.java",
+          "src/main/java/net/mcreator/uraniumcraft/block/entity/RadioactivecraftingtableanimTileEntity.java",
+          "src/main/java/net/mcreator/uraniumcraft/block/renderer/RadioactivecraftingtableanimDisplayItemRenderer.java",
+          "src/main/resources/assets/uraniumcraft/blockstates/radioactivecraftingtableanim.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -149,6 +227,8 @@
       "item.uraniumcraft.elementalgolem_spawn_egg": "Elementalgolem Spawn Egg",
       "item.uraniumcraft.uraniumingot": "Uraniumingot",
       "entity.uraniumcraft.elementalgolem": "Elementalgolem",
+      "item_group.uraniumcraft.uraniumcraft": "Uraniumcraft",
+      "block.uraniumcraft.radioactivecraftingtableanim": "Radioactivecraftingtableanim",
       "item.uraniumcraft.poloniumingot": "Polonium ingot",
       "item.uraniumcraft.radiumdust": "Radiumdust",
       "item.uraniumcraft.poloniumdust": "Polonium dust"
