@@ -28,6 +28,9 @@ public class UraniumcraftModTabs {
 					tabData.accept(UraniumcraftModBlocks.POLONIUMORE.get().asItem());
 					tabData.accept(UraniumcraftModBlocks.RADIUMORE.get().asItem());
 					tabData.accept(UraniumcraftModBlocks.URANIUMORE.get().asItem());
+					tabData.accept(UraniumcraftModBlocks.RADIOACTIVEOBSIDIAN.get().asItem());
+					tabData.accept(UraniumcraftModBlocks.RADIOACTIVECRYINGOBSIDIAN.get().asItem());
+					tabData.accept(UraniumcraftModItems.RADIOACTIVEWASTELAND.get());
 				})
 
 		);

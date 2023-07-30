@@ -1,9 +1,13 @@
 {
   "block.uraniumcraft.radiumore": "Radiumore",
+  "biome.uraniumcraft.ruinedplaine": "Ruinedplaine",
+  "block.uraniumcraft.radioactiveobsidian": "Radioactive obsidian",
   "item.uraniumcraft.uraniumingot": "Uraniumingot",
   "item_group.uraniumcraft.uraniumcraft": "Uraniumcraft",
   "item.uraniumcraft.uranium": "Uranium",
+  "block.uraniumcraft.radioactivecryingobsidian": "Radioactive crying obsidian",
   "item.uraniumcraft.hardenediron": "Hardenediron",
+  "item.uraniumcraft.radioactivewasteland": "Radioactivewasteland Portal Igniter",
   "item.uraniumcraft.elementalgolem_spawn_egg": "Elementalgolem Spawn Egg",
   "block.uraniumcraft.poloniumore": "Poloniumore",
   "entity.uraniumcraft.elementalgolem": "Elementalgolem",

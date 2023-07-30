@@ -13,14 +13,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.uraniumcraft.init.UraniumcraftModItems;
-
 import java.util.List;
 import java.util.Collections;
 
-public class RadiumoreBlock extends Block {
-	public RadiumoreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(32f, 1300f).requiresCorrectToolForDrops());
+public class RadioactivecryingobsidianBlock extends Block {
+	public RadioactivecryingobsidianBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHERITE_BLOCK).strength(70f, 1400f).requiresCorrectToolForDrops().friction(0.1f).speedFactor(1.5f).jumpFactor(1.5f));
 	}
 
 	@Override
@@ -31,7 +29,7 @@ public class RadiumoreBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 4;
+			return tieredItem.getTier().getLevel() >= 5;
 		return false;
 	}
 
@@ -40,6 +38,6 @@ public class RadiumoreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(UraniumcraftModItems.RADIUMDUST.get()));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

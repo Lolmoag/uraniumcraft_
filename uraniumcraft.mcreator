@@ -179,10 +179,14 @@
       "registry_name": "radiumore",
       "metadata": {
         "files": [
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/radiumore.json",
           "src/main/resources/assets/uraniumcraft/models/block/radiumore.json",
           "src/main/java/net/mcreator/uraniumcraft/block/RadiumoreBlock.java",
           "src/main/resources/assets/uraniumcraft/blockstates/radiumore.json",
-          "src/main/resources/assets/uraniumcraft/models/item/radiumore.json"
+          "src/main/resources/assets/uraniumcraft/models/item/radiumore.json",
+          "src/main/java/net/mcreator/uraniumcraft/world/features/ores/RadiumoreFeature.java",
+          "src/main/resources/data/uraniumcraft/forge/biome_modifier/radiumore_biome_modifier.json",
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/radiumore.json"
         ]
       }
     },
@@ -195,10 +199,101 @@
       "registry_name": "uraniumore",
       "metadata": {
         "files": [
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/uraniumore.json",
           "src/main/resources/assets/uraniumcraft/models/item/uraniumore.json",
           "src/main/resources/assets/uraniumcraft/blockstates/uraniumore.json",
+          "src/main/resources/data/uraniumcraft/forge/biome_modifier/uraniumore_biome_modifier.json",
           "src/main/java/net/mcreator/uraniumcraft/block/UraniumoreBlock.java",
-          "src/main/resources/assets/uraniumcraft/models/block/uraniumore.json"
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/uraniumore.json",
+          "src/main/resources/assets/uraniumcraft/models/block/uraniumore.json",
+          "src/main/java/net/mcreator/uraniumcraft/world/features/ores/UraniumoreFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "Ruinedplaine",
+      "type": "biome",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruinedplaine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/ruinedplaine_tree.json",
+          "src/main/resources/data/uraniumcraft/worldgen/biome/ruinedplaine.json",
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/ruinedplaine_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Radioactiveobsidian",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactiveobsidian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/item/radioactiveobsidian.json",
+          "src/main/resources/data/uraniumcraft/forge/biome_modifier/radioactiveobsidian_biome_modifier.json",
+          "src/main/java/net/mcreator/uraniumcraft/world/features/ores/RadioactiveobsidianFeature.java",
+          "src/main/resources/assets/uraniumcraft/blockstates/radioactiveobsidian.json",
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/radioactiveobsidian.json",
+          "src/main/resources/assets/uraniumcraft/models/block/radioactiveobsidian.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/RadioactiveobsidianBlock.java",
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/radioactiveobsidian.json"
+        ]
+      }
+    },
+    {
+      "name": "Radioactivecryingobsidian",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivecryingobsidian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/blockstates/radioactivecryingobsidian.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/RadioactivecryingobsidianBlock.java",
+          "src/main/resources/assets/uraniumcraft/models/block/radioactivecryingobsidian.json",
+          "src/main/resources/assets/uraniumcraft/models/item/radioactivecryingobsidian.json"
+        ]
+      }
+    },
+    {
+      "name": "Radioactivecryingobsidancraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivecryingobsidancraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/radioactive_crying_obsidan_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Radioactivewasteland",
+      "type": "dimension",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivewasteland",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/block/radioactivewasteland_portal_ew.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/RadioactivewastelandItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/radioactivewasteland.json",
+          "src/main/java/net/mcreator/uraniumcraft/world/dimension/RadioactivewastelandDimension.java",
+          "src/main/java/net/mcreator/uraniumcraft/world/teleporter/RadioactivewastelandTeleporter.java",
+          "src/main/resources/data/uraniumcraft/dimension/radioactivewasteland.json",
+          "src/main/resources/assets/uraniumcraft/blockstates/radioactivewasteland_portal.json",
+          "src/main/java/net/mcreator/uraniumcraft/world/teleporter/RadioactivewastelandPortalShape.java",
+          "src/main/resources/data/uraniumcraft/dimension_type/radioactivewasteland.json",
+          "src/main/resources/assets/uraniumcraft/models/block/radioactivewasteland_portal_ns.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/RadioactivewastelandPortalBlock.java"
         ]
       }
     }
@@ -208,10 +303,14 @@
   "language_map": {
     "en_us": {
       "block.uraniumcraft.radiumore": "Radiumore",
+      "biome.uraniumcraft.ruinedplaine": "Ruinedplaine",
+      "block.uraniumcraft.radioactiveobsidian": "Radioactive obsidian",
       "item.uraniumcraft.uraniumingot": "Uraniumingot",
       "item_group.uraniumcraft.uraniumcraft": "Uraniumcraft",
       "item.uraniumcraft.uranium": "Uranium",
+      "block.uraniumcraft.radioactivecryingobsidian": "Radioactive crying obsidian",
       "item.uraniumcraft.hardenediron": "Hardenediron",
+      "item.uraniumcraft.radioactivewasteland": "Radioactivewasteland Portal Igniter",
       "item.uraniumcraft.elementalgolem_spawn_egg": "Elementalgolem Spawn Egg",
       "block.uraniumcraft.poloniumore": "Poloniumore",
       "entity.uraniumcraft.elementalgolem": "Elementalgolem",

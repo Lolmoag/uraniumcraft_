@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.uraniumcraft.item.UraniumingotItem;
 import net.mcreator.uraniumcraft.item.UraniumItem;
 import net.mcreator.uraniumcraft.item.RadiumdustItem;
+import net.mcreator.uraniumcraft.item.RadioactivewastelandItem;
 import net.mcreator.uraniumcraft.item.PoloniumingotItem;
 import net.mcreator.uraniumcraft.item.PoloniumdustItem;
 import net.mcreator.uraniumcraft.item.HardenedironItem;
@@ -33,6 +34,9 @@ public class UraniumcraftModItems {
 	public static final RegistryObject<Item> POLONIUMORE = block(UraniumcraftModBlocks.POLONIUMORE);
 	public static final RegistryObject<Item> RADIUMORE = block(UraniumcraftModBlocks.RADIUMORE);
 	public static final RegistryObject<Item> URANIUMORE = block(UraniumcraftModBlocks.URANIUMORE);
+	public static final RegistryObject<Item> RADIOACTIVEOBSIDIAN = block(UraniumcraftModBlocks.RADIOACTIVEOBSIDIAN);
+	public static final RegistryObject<Item> RADIOACTIVECRYINGOBSIDIAN = block(UraniumcraftModBlocks.RADIOACTIVECRYINGOBSIDIAN);
+	public static final RegistryObject<Item> RADIOACTIVEWASTELAND = REGISTRY.register("radioactivewasteland", () -> new RadioactivewastelandItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
