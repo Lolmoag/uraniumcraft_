@@ -16,6 +16,7 @@ import net.mcreator.uraniumcraft.block.RadioactivewastelandPortalBlock;
 import net.mcreator.uraniumcraft.block.RadioactiveobsidianBlock;
 import net.mcreator.uraniumcraft.block.RadioactivecryingobsidianBlock;
 import net.mcreator.uraniumcraft.block.PoloniumoreBlock;
+import net.mcreator.uraniumcraft.block.EnergeticactivatorBlock;
 import net.mcreator.uraniumcraft.UraniumcraftMod;
 
 public class UraniumcraftModBlocks {
@@ -26,4 +27,5 @@ public class UraniumcraftModBlocks {
 	public static final RegistryObject<Block> RADIOACTIVEOBSIDIAN = REGISTRY.register("radioactiveobsidian", () -> new RadioactiveobsidianBlock());
 	public static final RegistryObject<Block> RADIOACTIVECRYINGOBSIDIAN = REGISTRY.register("radioactivecryingobsidian", () -> new RadioactivecryingobsidianBlock());
 	public static final RegistryObject<Block> RADIOACTIVEWASTELAND_PORTAL = REGISTRY.register("radioactivewasteland_portal", () -> new RadioactivewastelandPortalBlock());
+	public static final RegistryObject<Block> ENERGETICACTIVATOR = REGISTRY.register("energeticactivator", () -> new EnergeticactivatorBlock());
 }

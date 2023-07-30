@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "uraniumcraft:radiumingot"
+  },
+  "result": {
+    "item": "uraniumcraft:radium_boots"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "uraniumcraft:custom/energetic_activator",
+  "textures": {
+    "all": "uraniumcraft:block/texture",
+    "particle": "uraniumcraft:block/texture",
+    "0": "uraniumcraft:block/texture"
+  },
+  "render_type": "solid"
+}

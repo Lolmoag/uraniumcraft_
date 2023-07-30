@@ -31,6 +31,21 @@ public class UraniumcraftModTabs {
 					tabData.accept(UraniumcraftModBlocks.RADIOACTIVEOBSIDIAN.get().asItem());
 					tabData.accept(UraniumcraftModBlocks.RADIOACTIVECRYINGOBSIDIAN.get().asItem());
 					tabData.accept(UraniumcraftModItems.RADIOACTIVEWASTELAND.get());
+					tabData.accept(UraniumcraftModItems.RADIUMINGOT.get());
+					tabData.accept(UraniumcraftModItems.MAGICDUST.get());
+					tabData.accept(UraniumcraftModItems.RADIUM_HELMET.get());
+					tabData.accept(UraniumcraftModItems.RADIUM_CHESTPLATE.get());
+					tabData.accept(UraniumcraftModItems.RADIUM_LEGGINGS.get());
+					tabData.accept(UraniumcraftModItems.RADIUM_BOOTS.get());
+					tabData.accept(UraniumcraftModItems.POLONIUM_HELMET.get());
+					tabData.accept(UraniumcraftModItems.POLONIUM_CHESTPLATE.get());
+					tabData.accept(UraniumcraftModItems.POLONIUM_LEGGINGS.get());
+					tabData.accept(UraniumcraftModItems.POLONIUM_BOOTS.get());
+					tabData.accept(UraniumcraftModItems.URANIUMS_HELMET.get());
+					tabData.accept(UraniumcraftModItems.URANIUMS_CHESTPLATE.get());
+					tabData.accept(UraniumcraftModItems.URANIUMS_LEGGINGS.get());
+					tabData.accept(UraniumcraftModItems.URANIUMS_BOOTS.get());
+					tabData.accept(UraniumcraftModBlocks.ENERGETICACTIVATOR.get().asItem());
 				})
 
 		);
