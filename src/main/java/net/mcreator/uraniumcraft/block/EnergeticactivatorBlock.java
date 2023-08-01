@@ -17,6 +17,7 @@ import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
@@ -43,7 +44,7 @@ import io.netty.buffer.Unpooled;
 
 public class EnergeticactivatorBlock extends Block implements EntityBlock {
 	public EnergeticactivatorBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.ANVIL).strength(1f, 10f).noOcclusion().randomTicks().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().randomTicks().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -66,6 +67,13 @@ public class EnergeticactivatorBlock extends Block implements EntityBlock {
 		return Shapes.or(box(0, 0, 0, 16, 1, 16), box(1, 1, 1, 15, 2, 15), box(2, 2, 2, 3, 5, 14), box(3, 2, 13, 13, 5, 14), box(13, 2, 2, 14, 5, 14), box(3, 2, 2, 13, 5, 3), box(3, 5, 3, 4, 8, 13), box(12, 5, 3, 13, 8, 13), box(4, 5, 12, 12, 8, 13),
 				box(4, 5, 3, 12, 8, 4), box(4, 8, 11, 12, 11, 12), box(4, 8, 4, 12, 11, 5), box(11, 8, 5, 12, 11, 11), box(4, 8, 5, 5, 11, 11), box(10, 11, 5, 11, 14, 11), box(5, 11, 5, 6, 14, 11), box(6, 11, 5, 10, 14, 6),
 				box(6, 11, 10, 10, 14, 11), box(5, 10, 6, 11, 11, 11));
+	}
+
+	@Override
+	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
+		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
+			return tieredItem.getTier().getLevel() >= 1;
+		return false;
 	}
 
 	@Override

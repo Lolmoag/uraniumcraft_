@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "uraniumcraft:uraniumingot"
+    },
+    "1": {
+      "item": "uraniumcraft:poloniumingot"
+    },
+    "2": {
+      "item": "uraniumcraft:uraniumingot"
+    },
+    "3": {
+      "item": "uraniumcraft:radium_leggings"
+    },
+    "4": {
+      "item": "uraniumcraft:polonium_leggings"
+    },
+    "5": {
+      "item": "uraniumcraft:radium_leggings"
+    },
+    "6": {
+      "item": "uraniumcraft:uraniumingot"
+    },
+    "7": {
+      "item": "uraniumcraft:poloniumingot"
+    },
+    "8": {
+      "item": "uraniumcraft:uraniumingot"
+    }
+  },
+  "result": {
+    "item": "uraniumcraft:uraniums_chestplate",
+    "count": 1
+  }
+}

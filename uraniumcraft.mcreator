@@ -468,23 +468,6 @@
       }
     },
     {
-      "name": "Energeticactivator",
-      "type": "block",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "energeticactivator",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/uraniumcraft/models/item/energeticactivator.json",
-          "src/main/resources/assets/uraniumcraft/models/block/energeticactivator.json",
-          "src/main/java/net/mcreator/uraniumcraft/block/entity/EnergeticactivatorBlockEntity.java",
-          "src/main/resources/assets/uraniumcraft/blockstates/energeticactivator.json",
-          "src/main/java/net/mcreator/uraniumcraft/block/EnergeticactivatorBlock.java"
-        ]
-      }
-    },
-    {
       "name": "Xcf",
       "type": "gui",
       "sortid": 36,
@@ -578,6 +561,75 @@
       "metadata": {
         "files": [
           "src/main/resources/data/uraniumcraft/recipes/poloniumhelmetcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Energeticactivator",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energeticactivator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/item/energeticactivator.json",
+          "src/main/resources/assets/uraniumcraft/models/block/energeticactivator.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/entity/EnergeticactivatorBlockEntity.java",
+          "src/main/resources/assets/uraniumcraft/blockstates/energeticactivator.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/EnergeticactivatorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumbootscraft",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumbootscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/uraniumbootscraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumleggingcraft",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumleggingcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/uraniumleggingcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumhelmetcraft",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumhelmetcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/uraniumhelmetcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumchestplatecraft",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumchestplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/uraniumchestplatecraft.json"
         ]
       }
     }
