@@ -528,6 +528,58 @@
           }
         ]
       }
+    },
+    {
+      "name": "Poloniumbootscraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumbootscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/poloniumbootscraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Poloniumleggingcraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumleggingcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/poloniumleggingcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Poloniumchestplatecraft",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumchestplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/poloniumchestplatecraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Poloniumhelmetcraft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumhelmetcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/poloniumhelmetcraft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

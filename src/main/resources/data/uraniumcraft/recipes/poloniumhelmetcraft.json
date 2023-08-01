@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "uraniumcraft:radium_helmet"
+  },
+  "addition": {
+    "item": "uraniumcraft:poloniumingot"
+  },
+  "result": {
+    "item": "uraniumcraft:polonium_helmet"
+  }
+}
