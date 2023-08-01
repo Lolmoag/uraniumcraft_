@@ -1,8 +1,17 @@
 
 package net.mcreator.uraniumcraft.item;
 
-public class RadioactivewastelandItem extends Item {
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.core.BlockPos;
 
+import net.mcreator.uraniumcraft.block.RadioactivewastelandPortalBlock;
+
+public class RadioactivewastelandItem extends Item {
 	public RadioactivewastelandItem() {
 		super(new Item.Properties().durability(64));
 	}
@@ -20,13 +29,11 @@ public class RadioactivewastelandItem extends Item {
 			int y = pos.getY();
 			int z = pos.getZ();
 			boolean success = false;
-
 			if (world.isEmptyBlock(pos) && true) {
 				RadioactivewastelandPortalBlock.portalSpawn(world, pos);
 				itemstack.hurtAndBreak(1, entity, c -> c.broadcastBreakEvent(context.getHand()));
 				success = true;
 			}
-
 			return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;
 		}
 	}

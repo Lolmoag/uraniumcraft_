@@ -1,12 +1,19 @@
 
 package net.mcreator.uraniumcraft.item;
 
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
-import java.util.function.Consumer;
-import net.minecraft.client.model.Model;
+
+import net.mcreator.uraniumcraft.init.UraniumcraftModItems;
 
 public abstract class RadiumItem extends ArmorItem {
-
 	public RadiumItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -31,7 +38,7 @@ public abstract class RadiumItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(UraniumcraftModItems.DELETED_MOD_ELEMENT.get()));
+				return Ingredient.of(new ItemStack(UraniumcraftModItems.MAGICDUST.get()));
 			}
 
 			@Override
@@ -52,7 +59,6 @@ public abstract class RadiumItem extends ArmorItem {
 	}
 
 	public static class Helmet extends RadiumItem {
-
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
@@ -61,11 +67,9 @@ public abstract class RadiumItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "uraniumcraft:textures/models/armor/radiumingotu_layer_1.png";
 		}
-
 	}
 
 	public static class Chestplate extends RadiumItem {
-
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
@@ -74,11 +78,9 @@ public abstract class RadiumItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "uraniumcraft:textures/models/armor/radiumingotu_layer_1.png";
 		}
-
 	}
 
 	public static class Leggings extends RadiumItem {
-
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
@@ -87,11 +89,9 @@ public abstract class RadiumItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "uraniumcraft:textures/models/armor/radiumingotu_layer_2.png";
 		}
-
 	}
 
 	public static class Boots extends RadiumItem {
-
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
@@ -100,7 +100,5 @@ public abstract class RadiumItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "uraniumcraft:textures/models/armor/radiumingotu_layer_1.png";
 		}
-
 	}
-
 }
