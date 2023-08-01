@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "uraniumcraft:radioactiveobsidian"
+      "item": "uraniumcraft:deleted_mod_element"
     },
     "1": {
       "item": "minecraft:obsidian"
     },
     "2": {
-      "item": "uraniumcraft:radioactiveobsidian"
+      "item": "uraniumcraft:deleted_mod_element"
     },
     "3": {
       "item": "minecraft:obsidian"
@@ -26,17 +26,17 @@
       "item": "minecraft:obsidian"
     },
     "6": {
-      "item": "uraniumcraft:radioactiveobsidian"
+      "item": "uraniumcraft:deleted_mod_element"
     },
     "7": {
       "item": "minecraft:obsidian"
     },
     "8": {
-      "item": "uraniumcraft:radioactiveobsidian"
+      "item": "uraniumcraft:deleted_mod_element"
     }
   },
   "result": {
-    "item": "uraniumcraft:radioactivecryingobsidian",
+    "item": "uraniumcraft:deleted_mod_element",
     "count": 2
   }
 }

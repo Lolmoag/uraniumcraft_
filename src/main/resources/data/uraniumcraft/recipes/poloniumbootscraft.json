@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "uraniumcraft:radium_boots"
+    "item": "uraniumcraft:deleted_mod_element_boots"
   },
   "addition": {
     "item": "uraniumcraft:poloniumingot"
   },
   "result": {
-    "item": "uraniumcraft:polonium_boots"
+    "item": "uraniumcraft:deleted_mod_element_boots"
   }
 }

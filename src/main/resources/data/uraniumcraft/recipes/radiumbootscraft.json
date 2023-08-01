@@ -4,9 +4,9 @@
     "item": "minecraft:netherite_boots"
   },
   "addition": {
-    "item": "uraniumcraft:radiumingot"
+    "item": "uraniumcraft:deleted_mod_element"
   },
   "result": {
-    "item": "uraniumcraft:radium_boots"
+    "item": "uraniumcraft:deleted_mod_element_boots"
   }
 }

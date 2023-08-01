@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "uraniumcraft:radium_chestplate"
+    "item": "uraniumcraft:deleted_mod_element_chestplate"
   },
   "addition": {
     "item": "uraniumcraft:poloniumingot"
   },
   "result": {
-    "item": "uraniumcraft:polonium_chestplate"
+    "item": "uraniumcraft:deleted_mod_element_chestplate"
   }
 }

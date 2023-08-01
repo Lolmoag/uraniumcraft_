@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "uraniumcraft:radium_helmet"
+    "item": "uraniumcraft:deleted_mod_element_helmet"
   },
   "addition": {
     "item": "uraniumcraft:poloniumingot"
   },
   "result": {
-    "item": "uraniumcraft:polonium_helmet"
+    "item": "uraniumcraft:deleted_mod_element_helmet"
   }
 }
