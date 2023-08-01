@@ -70,6 +70,516 @@
           "src/main/resources/data/uraniumcraft/recipes/poloniumingotcraft.json"
         ]
       }
+    },
+    {
+      "name": "Poloniumhelmetcraft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumhelmetcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/poloniumhelmetcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Poloniumore",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/block/PoloniumoreBlock.java",
+          "src/main/resources/data/uraniumcraft/forge/biome_modifier/poloniumore_biome_modifier.json",
+          "src/main/resources/assets/uraniumcraft/blockstates/poloniumore.json",
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/poloniumore.json",
+          "src/main/resources/assets/uraniumcraft/models/block/poloniumore.json",
+          "src/main/java/net/mcreator/uraniumcraft/world/features/ores/PoloniumoreFeature.java",
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/poloniumore.json",
+          "src/main/resources/assets/uraniumcraft/models/item/poloniumore.json"
+        ]
+      }
+    },
+    {
+      "name": "Hardenediron",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardenediron",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/item/hardenediron.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/HardenedironItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Poloniumchestplatecraft",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumchestplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/poloniumchestplatecraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumore",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/block/UraniumoreBlock.java",
+          "src/main/resources/assets/uraniumcraft/models/block/uraniumore.json",
+          "src/main/java/net/mcreator/uraniumcraft/world/features/ores/UraniumoreFeature.java",
+          "src/main/resources/assets/uraniumcraft/models/item/uraniumore.json",
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/uraniumore.json",
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/uraniumore.json",
+          "src/main/resources/assets/uraniumcraft/blockstates/uraniumore.json",
+          "src/main/resources/data/uraniumcraft/forge/biome_modifier/uraniumore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Radiumore",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/radiumore.json",
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/radiumore.json",
+          "src/main/resources/assets/uraniumcraft/blockstates/radiumore.json",
+          "src/main/java/net/mcreator/uraniumcraft/world/features/ores/RadiumoreFeature.java",
+          "src/main/resources/assets/uraniumcraft/models/block/radiumore.json",
+          "src/main/resources/data/uraniumcraft/forge/biome_modifier/radiumore_biome_modifier.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/RadiumoreBlock.java",
+          "src/main/resources/assets/uraniumcraft/models/item/radiumore.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumingot",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/item/UraniumingotItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/uraniumingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/item/uranium.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/UraniumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Radioactivewasteland",
+      "type": "dimension",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivewasteland",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/world/teleporter/RadioactivewastelandPortalShape.java",
+          "src/main/resources/assets/uraniumcraft/models/item/radioactivewasteland.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/RadioactivewastelandPortalBlock.java",
+          "src/main/java/net/mcreator/uraniumcraft/world/teleporter/RadioactivewastelandTeleporter.java",
+          "src/main/resources/assets/uraniumcraft/blockstates/radioactivewasteland_portal.json",
+          "src/main/java/net/mcreator/uraniumcraft/world/dimension/RadioactivewastelandDimension.java",
+          "src/main/resources/data/uraniumcraft/dimension_type/radioactivewasteland.json",
+          "src/main/resources/assets/uraniumcraft/models/block/radioactivewasteland_portal_ns.json",
+          "src/main/resources/assets/uraniumcraft/models/block/radioactivewasteland_portal_ew.json",
+          "src/main/resources/data/uraniumcraft/dimension/radioactivewasteland.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/RadioactivewastelandItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Radiumhelmetcraft",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiumhelmetcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/radiumhelmetcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "EnergeticactivatorMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energeticactivator_mise_a_jour_du_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/procedures/EnergeticactivatorMiseAJourDuTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radioactivecryingobsidancraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivecryingobsidancraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/radioactive_crying_obsidan_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Radiumbootscraft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiumbootscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/radiumbootscraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Willthatkillme",
+      "type": "achievement",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willthatkillme",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/advancements/willthatkillme.json"
+        ]
+      }
+    },
+    {
+      "name": "Poloniumbootscraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumbootscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/poloniumbootscraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Radium",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/item/radium_leggings.json",
+          "src/main/resources/assets/uraniumcraft/models/item/radium_helmet.json",
+          "src/main/resources/assets/uraniumcraft/models/item/radium_chestplate.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/RadiumItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/radium_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Poloniumleggingcraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poloniumleggingcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/poloniumleggingcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumcraft",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumcraft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Magicdust",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicdust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/item/magicdust.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/MagicdustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Radioactivecryingobsidian",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivecryingobsidian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/block/RadioactivecryingobsidianBlock.java",
+          "src/main/resources/assets/uraniumcraft/models/item/radioactivecryingobsidian.json",
+          "src/main/resources/assets/uraniumcraft/blockstates/radioactivecryingobsidian.json",
+          "src/main/resources/assets/uraniumcraft/models/block/radioactivecryingobsidian.json"
+        ]
+      }
+    },
+    {
+      "name": "Radiumleggingcraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiumleggingcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/radiumleggingcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Radiumchestplatecraft",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiumchestplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/radiumchestplatecraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniums",
+      "type": "armor",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniums",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/item/uraniums_helmet.json",
+          "src/main/resources/assets/uraniumcraft/models/item/uraniums_boots.json",
+          "src/main/resources/assets/uraniumcraft/models/item/uraniums_leggings.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/UraniumsItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/uraniums_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Ruinedplaine",
+      "type": "biome",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruinedplaine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/ruinedplaine_tree.json",
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/ruinedplaine_tree.json",
+          "src/main/resources/data/uraniumcraft/worldgen/biome/ruinedplaine.json"
+        ]
+      }
+    },
+    {
+      "name": "Magicdustcraft",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicdustcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/magicdustcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Hardenedironcraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardenedironcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/hardenedironcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumingotcraft",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumingotcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/uraniumingotcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Polonium",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polonium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/uraniumcraft/models/item/polonium_boots.json",
+          "src/main/resources/assets/uraniumcraft/models/item/polonium_helmet.json",
+          "src/main/resources/assets/uraniumcraft/models/item/polonium_leggings.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/polonium_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Xcf",
+      "type": "gui",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xcf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/client/gui/XcfScreen.java",
+          "src/main/java/net/mcreator/uraniumcraft/world/inventory/XcfMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Radiumingot",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiumingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/item/RadiumingotItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/radiumingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Energeticactivator",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energeticactivator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/block/entity/EnergeticactivatorBlockEntity.java",
+          "src/main/resources/assets/uraniumcraft/models/item/energeticactivator.json",
+          "src/main/resources/assets/uraniumcraft/blockstates/energeticactivator.json",
+          "src/main/resources/assets/uraniumcraft/models/block/energeticactivator.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/EnergeticactivatorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Radioactiveobsidian",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactiveobsidian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/world/features/ores/RadioactiveobsidianFeature.java",
+          "src/main/java/net/mcreator/uraniumcraft/block/RadioactiveobsidianBlock.java",
+          "src/main/resources/assets/uraniumcraft/models/item/radioactiveobsidian.json",
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/radioactiveobsidian.json",
+          "src/main/resources/assets/uraniumcraft/models/block/radioactiveobsidian.json",
+          "src/main/resources/data/uraniumcraft/forge/biome_modifier/radioactiveobsidian_biome_modifier.json",
+          "src/main/resources/assets/uraniumcraft/blockstates/radioactiveobsidian.json",
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/radioactiveobsidian.json"
+        ]
+      }
+    },
+    {
+      "name": "Radiumingotcraft",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiumingotcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/radium_ingot_craft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

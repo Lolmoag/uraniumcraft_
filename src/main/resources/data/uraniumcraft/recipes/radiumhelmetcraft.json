@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "uraniumcraft:deleted_mod_element"
+  },
+  "result": {
+    "item": "uraniumcraft:deleted_mod_element_helmet"
+  }
+}

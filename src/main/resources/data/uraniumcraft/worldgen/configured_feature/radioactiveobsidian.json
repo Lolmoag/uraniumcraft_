@@ -1,0 +1,42 @@
+{
+  "type": "uraniumcraft:radioactiveobsidian",
+  "config": {
+    "size": 4,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:netherrack"
+          }
+        },
+        "state": {
+          "Name": "uraniumcraft:radioactiveobsidian"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:soul_sand"
+          }
+        },
+        "state": {
+          "Name": "uraniumcraft:radioactiveobsidian"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:soul_soil"
+          }
+        },
+        "state": {
+          "Name": "uraniumcraft:radioactiveobsidian"
+        }
+      }
+    ]
+  }
+}

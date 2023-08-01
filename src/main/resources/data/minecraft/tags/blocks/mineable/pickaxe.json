@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "uraniumcraft:poloniumore",
+    "uraniumcraft:radiumore",
+    "uraniumcraft:uraniumore",
+    "uraniumcraft:radioactiveobsidian",
+    "uraniumcraft:radioactivecryingobsidian"
+  ]
+}

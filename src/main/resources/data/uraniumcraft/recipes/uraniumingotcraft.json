@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "uraniumcraft:uranium"
+    },
+    "1": {
+      "item": "uraniumcraft:hardenediron"
+    },
+    "2": {
+      "item": "uraniumcraft:uranium"
+    },
+    "3": {
+      "item": "uraniumcraft:hardenediron"
+    },
+    "4": {
+      "item": "uraniumcraft:poloniumingot"
+    },
+    "5": {
+      "item": "uraniumcraft:hardenediron"
+    },
+    "6": {
+      "item": "uraniumcraft:uranium"
+    },
+    "7": {
+      "item": "uraniumcraft:hardenediron"
+    },
+    "8": {
+      "item": "uraniumcraft:uranium"
+    }
+  },
+  "result": {
+    "item": "uraniumcraft:uraniumingot",
+    "count": 1
+  }
+}

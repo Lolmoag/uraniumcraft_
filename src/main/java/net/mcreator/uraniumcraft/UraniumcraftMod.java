@@ -31,8 +31,12 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.uraniumcraft.init.UraniumcraftModMenus;
 import net.mcreator.uraniumcraft.init.UraniumcraftModItems;
+import net.mcreator.uraniumcraft.init.UraniumcraftModFeatures;
 import net.mcreator.uraniumcraft.init.UraniumcraftModEntities;
+import net.mcreator.uraniumcraft.init.UraniumcraftModBlocks;
+import net.mcreator.uraniumcraft.init.UraniumcraftModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -52,8 +56,13 @@ public class UraniumcraftMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		UraniumcraftModBlocks.REGISTRY.register(bus);
 		UraniumcraftModItems.REGISTRY.register(bus);
 		UraniumcraftModEntities.REGISTRY.register(bus);
+		UraniumcraftModBlockEntities.REGISTRY.register(bus);
+		UraniumcraftModFeatures.REGISTRY.register(bus);
+
+		UraniumcraftModMenus.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

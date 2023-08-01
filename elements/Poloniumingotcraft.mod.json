@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:Hardenediron"
       },
       {
         "value": "CUSTOM:Poloniumdust"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:Hardenediron"
       },
       {
         "value": "CUSTOM:Poloniumdust"
@@ -30,13 +30,13 @@
         "value": "CUSTOM:Poloniumdust"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:Hardenediron"
       },
       {
         "value": "CUSTOM:Poloniumdust"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:Hardenediron"
       }
     ],
     "recipeReturnStack": {

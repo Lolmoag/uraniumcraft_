@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "uraniumcraft:radium_leggings"
+  },
+  "addition": {
+    "item": "uraniumcraft:poloniumingot"
+  },
+  "result": {
+    "item": "uraniumcraft:deleted_mod_element_leggings"
+  }
+}
