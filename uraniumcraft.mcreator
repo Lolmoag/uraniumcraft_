@@ -582,35 +582,63 @@
       }
     },
     {
-      "name": "Uraniumleggingcraft",
-      "type": "recipe",
-      "sortid": 44,
+      "name": "Capacitor",
+      "type": "item",
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "uraniumleggingcraft",
+      "registry_name": "capacitor",
       "metadata": {
         "files": [
-          "src/main/resources/data/uraniumcraft/recipes/uraniumleggingcraft.json"
+          "src/main/java/net/mcreator/uraniumcraft/item/CapacitorItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/capacitor.json"
         ]
       }
     },
     {
-      "name": "Uraniumhelmetcraft",
-      "type": "recipe",
-      "sortid": 45,
+      "name": "Radianite",
+      "type": "item",
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "uraniumhelmetcraft",
+      "registry_name": "radianite",
       "metadata": {
         "files": [
-          "src/main/resources/data/uraniumcraft/recipes/uraniumhelmetcraft.json"
+          "src/main/java/net/mcreator/uraniumcraft/item/RadianiteItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/radianite.json"
+        ]
+      }
+    },
+    {
+      "name": "Radianitecraft",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radianitecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/radianitecraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Capacitorcraft",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capacitorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/capacitorcraft.json"
         ]
       }
     },
     {
       "name": "Uraniumbootscraft",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uraniumbootscraft",
@@ -621,15 +649,172 @@
       }
     },
     {
+      "name": "Uraniumleggingcraft",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumleggingcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/uraniumleggingcraft.json"
+        ]
+      }
+    },
+    {
       "name": "Uraniumchestplatecraft",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uraniumchestplatecraft",
       "metadata": {
         "files": [
           "src/main/resources/data/uraniumcraft/recipes/uraniumchestplatecraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumhelmetcraft",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumhelmetcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uraniumcraft/recipes/uraniumhelmetcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "RadioactivityQuandLeffetCommenceEstApplique",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivity_quand_leffet_commence_est_applique",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/procedures/RadioactivityQuandLeffetCommenceEstAppliqueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadioactivityQuandLeffetExpire",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivity_quand_leffet_expire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/procedures/RadioactivityQuandLeffetExpireProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radioactivity",
+      "type": "potioneffect",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/potion/RadioactivityMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "UraniumsEvenementDeTickDesJambieres",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniums_evenement_de_tick_des_jambieres",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/procedures/UraniumsEvenementDeTickDesJambieresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UraniumsEvenementDeTickDuPlastron",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniums_evenement_de_tick_du_plastron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/procedures/UraniumsEvenementDeTickDuPlastronProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UraniumsEvenementDeTickDesBottes",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniums_evenement_de_tick_des_bottes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/procedures/UraniumsEvenementDeTickDesBottesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UraniumsEvenementDeTickDuCasque",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniums_evenement_de_tick_du_casque",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/procedures/UraniumsEvenementDeTickDuCasqueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     }
@@ -652,10 +837,13 @@
       "item.uraniumcraft.poloniumingot": "Polonium ingot",
       "item.uraniumcraft.radiumdust": "Radiumdust",
       "item.uraniumcraft.poloniumdust": "Polonium dust",
+      "effect.uraniumcraft.radioactivity": "radioactivity",
       "item.uraniumcraft.polonium_helmet": "Casque en Polonium",
+      "item.uraniumcraft.capacitor": "Capacitor",
       "block.uraniumcraft.radioactiveobsidian": "Radioactive obsidian",
       "item.uraniumcraft.uraniumingot": "Uraniumingot",
       "item.uraniumcraft.radium_helmet": "Casque en Radium",
+      "item.uraniumcraft.radianite": "Radianite",
       "block.uraniumcraft.radioactivecryingobsidian": "Radioactive crying obsidian",
       "item.uraniumcraft.uraniums_leggings": "Jambières de Uranium",
       "item.uraniumcraft.radium_boots": "Bottes en Radium",

@@ -1,16 +1,22 @@
 
 package net.mcreator.uraniumcraft.item;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
 
+import net.mcreator.uraniumcraft.procedures.UraniumsEvenementDeTickDuPlastronProcedure;
+import net.mcreator.uraniumcraft.procedures.UraniumsEvenementDeTickDuCasqueProcedure;
+import net.mcreator.uraniumcraft.procedures.UraniumsEvenementDeTickDesJambieresProcedure;
+import net.mcreator.uraniumcraft.procedures.UraniumsEvenementDeTickDesBottesProcedure;
 import net.mcreator.uraniumcraft.init.UraniumcraftModItems;
 
 public abstract class UraniumsItem extends ArmorItem {
@@ -18,17 +24,17 @@ public abstract class UraniumsItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 53;
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 89;
 			}
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{6, 9, 11, 6}[type.getSlot().getIndex()];
+				return new int[]{25, 28, 30, 25}[type.getSlot().getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 9;
+				return 26;
 			}
 
 			@Override
@@ -67,6 +73,11 @@ public abstract class UraniumsItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "uraniumcraft:textures/models/armor/uraniumingotu_layer_1.png";
 		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			UraniumsEvenementDeTickDuCasqueProcedure.execute(entity);
+		}
 	}
 
 	public static class Chestplate extends UraniumsItem {
@@ -77,6 +88,11 @@ public abstract class UraniumsItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "uraniumcraft:textures/models/armor/uraniumingotu_layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			UraniumsEvenementDeTickDuPlastronProcedure.execute(entity);
 		}
 	}
 
@@ -89,6 +105,11 @@ public abstract class UraniumsItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "uraniumcraft:textures/models/armor/uraniumingotu_layer_2.png";
 		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			UraniumsEvenementDeTickDesJambieresProcedure.execute(entity);
+		}
 	}
 
 	public static class Boots extends UraniumsItem {
@@ -99,6 +120,11 @@ public abstract class UraniumsItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "uraniumcraft:textures/models/armor/uraniumingotu_layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			UraniumsEvenementDeTickDesBottesProcedure.execute(entity);
 		}
 	}
 }

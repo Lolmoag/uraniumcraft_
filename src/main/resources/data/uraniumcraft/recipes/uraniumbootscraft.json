@@ -8,35 +8,35 @@
   ],
   "key": {
     "0": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:radium_boots"
     },
     "1": {
-      "item": "uraniumcraft:poloniumingot"
+      "item": "uraniumcraft:capacitor"
     },
     "2": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:radium_boots"
     },
     "3": {
-      "item": "uraniumcraft:radium_boots"
+      "item": "uraniumcraft:radianite"
     },
     "4": {
-      "item": "uraniumcraft:polonium_boots"
+      "item": "minecraft:netherite_boots"
     },
     "5": {
-      "item": "uraniumcraft:radium_boots"
+      "item": "uraniumcraft:radianite"
     },
     "6": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:polonium_boots"
     },
     "7": {
-      "item": "uraniumcraft:poloniumingot"
+      "item": "uraniumcraft:capacitor"
     },
     "8": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:polonium_boots"
     }
   },
   "result": {
-    "item": "uraniumcraft:uraniums_chestplate",
+    "item": "uraniumcraft:uraniums_boots",
     "count": 1
   }
 }

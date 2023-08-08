@@ -31,6 +31,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.uraniumcraft.init.UraniumcraftModMobEffects;
 import net.mcreator.uraniumcraft.init.UraniumcraftModMenus;
 import net.mcreator.uraniumcraft.init.UraniumcraftModItems;
 import net.mcreator.uraniumcraft.init.UraniumcraftModFeatures;
@@ -61,6 +62,8 @@ public class UraniumcraftMod {
 		UraniumcraftModEntities.REGISTRY.register(bus);
 		UraniumcraftModBlockEntities.REGISTRY.register(bus);
 		UraniumcraftModFeatures.REGISTRY.register(bus);
+
+		UraniumcraftModMobEffects.REGISTRY.register(bus);
 
 		UraniumcraftModMenus.REGISTRY.register(bus);
 

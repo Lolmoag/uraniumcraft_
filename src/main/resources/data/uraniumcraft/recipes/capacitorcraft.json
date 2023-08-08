@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "uraniumcraft:hardenediron"
+    },
+    "1": {
+      "item": "uraniumcraft:radiumingot"
+    },
+    "2": {
+      "item": "uraniumcraft:hardenediron"
+    },
+    "3": {
+      "item": "uraniumcraft:poloniumingot"
+    },
+    "4": {
+      "item": "minecraft:redstone_block"
+    },
+    "5": {
+      "item": "uraniumcraft:poloniumingot"
+    },
+    "6": {
+      "item": "uraniumcraft:hardenediron"
+    },
+    "7": {
+      "item": "uraniumcraft:radiumingot"
+    },
+    "8": {
+      "item": "uraniumcraft:hardenediron"
+    }
+  },
+  "result": {
+    "item": "uraniumcraft:capacitor",
+    "count": 1
+  }
+}

@@ -8,35 +8,35 @@
   ],
   "key": {
     "0": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:radium_leggings"
     },
     "1": {
-      "item": "uraniumcraft:poloniumingot"
+      "item": "uraniumcraft:capacitor"
     },
     "2": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:radium_leggings"
     },
     "3": {
-      "item": "uraniumcraft:radium_leggings"
+      "item": "uraniumcraft:radianite"
     },
     "4": {
-      "item": "uraniumcraft:polonium_leggings"
+      "item": "minecraft:netherite_leggings"
     },
     "5": {
-      "item": "uraniumcraft:radium_leggings"
+      "item": "uraniumcraft:radianite"
     },
     "6": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:polonium_leggings"
     },
     "7": {
-      "item": "uraniumcraft:poloniumingot"
+      "item": "uraniumcraft:capacitor"
     },
     "8": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:polonium_leggings"
     }
   },
   "result": {
-    "item": "uraniumcraft:uraniums_chestplate",
+    "item": "uraniumcraft:uraniums_leggings",
     "count": 1
   }
 }

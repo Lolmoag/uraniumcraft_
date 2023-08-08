@@ -12,35 +12,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Uraniumingot"
+        "value": "CUSTOM:Radium.legs"
       },
       {
-        "value": "CUSTOM:Poloniumingot"
-      },
-      {
-        "value": "CUSTOM:Uraniumingot"
+        "value": "CUSTOM:Capacitor"
       },
       {
         "value": "CUSTOM:Radium.legs"
+      },
+      {
+        "value": "CUSTOM:Radianite"
+      },
+      {
+        "value": "Items.NETHERITE_LEGGINGS"
+      },
+      {
+        "value": "CUSTOM:Radianite"
       },
       {
         "value": "CUSTOM:Polonium.legs"
       },
       {
-        "value": "CUSTOM:Radium.legs"
+        "value": "CUSTOM:Capacitor"
       },
       {
-        "value": "CUSTOM:Uraniumingot"
-      },
-      {
-        "value": "CUSTOM:Poloniumingot"
-      },
-      {
-        "value": "CUSTOM:Uraniumingot"
+        "value": "CUSTOM:Polonium.legs"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Uraniums.body"
+      "value": "CUSTOM:Uraniums.legs"
     },
     "name": "uraniumleggingcraft",
     "namespace": "mod"

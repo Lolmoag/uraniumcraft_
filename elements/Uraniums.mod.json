@@ -10,6 +10,18 @@
     "textureLeggings": "uraniumingotu_leggings",
     "enableBoots": true,
     "textureBoots": "uraniumingotu_boots",
+    "onHelmetTick": {
+      "name": "UraniumsEvenementDeTickDuCasque"
+    },
+    "onBodyTick": {
+      "name": "UraniumsEvenementDeTickDuPlastron"
+    },
+    "onLeggingsTick": {
+      "name": "UraniumsEvenementDeTickDesJambieres"
+    },
+    "onBootsTick": {
+      "name": "UraniumsEvenementDeTickDesBottes"
+    },
     "creativeTab": {
       "value": "CUSTOM:Uraniumcraft"
     },
@@ -50,12 +62,12 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 53,
-    "damageValueHelmet": 6,
-    "damageValueBody": 11,
-    "damageValueLeggings": 9,
-    "damageValueBoots": 6,
-    "enchantability": 9,
+    "maxDamage": 89,
+    "damageValueHelmet": 25,
+    "damageValueBody": 30,
+    "damageValueLeggings": 28,
+    "damageValueBoots": 25,
+    "enchantability": 26,
     "toughness": 6.0,
     "knockbackResistance": 0.7999999999999999,
     "equipSound": {

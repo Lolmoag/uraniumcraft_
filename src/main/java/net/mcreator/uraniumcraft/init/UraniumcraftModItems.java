@@ -20,11 +20,13 @@ import net.mcreator.uraniumcraft.item.RadiumingotItem;
 import net.mcreator.uraniumcraft.item.RadiumdustItem;
 import net.mcreator.uraniumcraft.item.RadiumItem;
 import net.mcreator.uraniumcraft.item.RadioactivewastelandItem;
+import net.mcreator.uraniumcraft.item.RadianiteItem;
 import net.mcreator.uraniumcraft.item.PoloniumingotItem;
 import net.mcreator.uraniumcraft.item.PoloniumdustItem;
 import net.mcreator.uraniumcraft.item.PoloniumItem;
 import net.mcreator.uraniumcraft.item.MagicdustItem;
 import net.mcreator.uraniumcraft.item.HardenedironItem;
+import net.mcreator.uraniumcraft.item.CapacitorItem;
 import net.mcreator.uraniumcraft.UraniumcraftMod;
 
 public class UraniumcraftModItems {
@@ -57,6 +59,8 @@ public class UraniumcraftModItems {
 	public static final RegistryObject<Item> URANIUMS_LEGGINGS = REGISTRY.register("uraniums_leggings", () -> new UraniumsItem.Leggings());
 	public static final RegistryObject<Item> URANIUMS_BOOTS = REGISTRY.register("uraniums_boots", () -> new UraniumsItem.Boots());
 	public static final RegistryObject<Item> ENERGETICACTIVATOR = block(UraniumcraftModBlocks.ENERGETICACTIVATOR);
+	public static final RegistryObject<Item> CAPACITOR = REGISTRY.register("capacitor", () -> new CapacitorItem());
+	public static final RegistryObject<Item> RADIANITE = REGISTRY.register("radianite", () -> new RadianiteItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

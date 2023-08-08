@@ -8,31 +8,31 @@
   ],
   "key": {
     "0": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:radium_helmet"
     },
     "1": {
-      "item": "uraniumcraft:poloniumingot"
+      "item": "uraniumcraft:capacitor"
     },
     "2": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:radium_helmet"
     },
     "3": {
-      "item": "uraniumcraft:radium_helmet"
+      "item": "uraniumcraft:radianite"
     },
     "4": {
-      "item": "uraniumcraft:polonium_helmet"
+      "item": "minecraft:netherite_helmet"
     },
     "5": {
-      "item": "uraniumcraft:radium_helmet"
+      "item": "uraniumcraft:radianite"
     },
     "6": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:polonium_helmet"
     },
     "7": {
-      "item": "uraniumcraft:poloniumingot"
+      "item": "uraniumcraft:capacitor"
     },
     "8": {
-      "item": "uraniumcraft:uraniumingot"
+      "item": "uraniumcraft:polonium_helmet"
     }
   },
   "result": {

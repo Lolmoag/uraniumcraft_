@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Radium.boots"
+        "value": "CUSTOM:Hardenediron"
       },
       {
-        "value": "CUSTOM:Capacitor"
+        "value": "CUSTOM:Radiumingot"
       },
       {
-        "value": "CUSTOM:Radium.boots"
+        "value": "CUSTOM:Hardenediron"
       },
       {
-        "value": "CUSTOM:Radianite"
+        "value": "CUSTOM:Poloniumingot"
       },
       {
-        "value": "Items.NETHERITE_BOOTS"
+        "value": "Blocks.REDSTONE_BLOCK"
       },
       {
-        "value": "CUSTOM:Radianite"
+        "value": "CUSTOM:Poloniumingot"
       },
       {
-        "value": "CUSTOM:Polonium.boots"
+        "value": "CUSTOM:Hardenediron"
       },
       {
-        "value": "CUSTOM:Capacitor"
+        "value": "CUSTOM:Radiumingot"
       },
       {
-        "value": "CUSTOM:Polonium.boots"
+        "value": "CUSTOM:Hardenediron"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Uraniums.boots"
+      "value": "CUSTOM:Capacitor"
     },
-    "name": "uraniumbootscraft",
+    "name": "capacitorcraft",
     "namespace": "mod"
   }
 }

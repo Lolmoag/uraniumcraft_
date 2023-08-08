@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Radium.boots"
+        "value": "CUSTOM:Radiumingot"
+      },
+      {
+        "value": "CUSTOM:Poloniumingot"
+      },
+      {
+        "value": "CUSTOM:Radiumingot"
+      },
+      {
+        "value": "CUSTOM:Uraniumingot"
       },
       {
         "value": "CUSTOM:Capacitor"
       },
       {
-        "value": "CUSTOM:Radium.boots"
+        "value": "CUSTOM:Uraniumingot"
       },
       {
-        "value": "CUSTOM:Radianite"
+        "value": "CUSTOM:Radiumingot"
       },
       {
-        "value": "Items.NETHERITE_BOOTS"
+        "value": "CUSTOM:Poloniumingot"
       },
       {
-        "value": "CUSTOM:Radianite"
-      },
-      {
-        "value": "CUSTOM:Polonium.boots"
-      },
-      {
-        "value": "CUSTOM:Capacitor"
-      },
-      {
-        "value": "CUSTOM:Polonium.boots"
+        "value": "CUSTOM:Radiumingot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Uraniums.boots"
+      "value": "CUSTOM:Radianite"
     },
-    "name": "uraniumbootscraft",
+    "name": "radianitecraft",
     "namespace": "mod"
   }
 }

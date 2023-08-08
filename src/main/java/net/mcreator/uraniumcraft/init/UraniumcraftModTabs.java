@@ -46,6 +46,8 @@ public class UraniumcraftModTabs {
 					tabData.accept(UraniumcraftModItems.URANIUMS_LEGGINGS.get());
 					tabData.accept(UraniumcraftModItems.URANIUMS_BOOTS.get());
 					tabData.accept(UraniumcraftModBlocks.ENERGETICACTIVATOR.get().asItem());
+					tabData.accept(UraniumcraftModItems.CAPACITOR.get());
+					tabData.accept(UraniumcraftModItems.RADIANITE.get());
 				})
 
 		);

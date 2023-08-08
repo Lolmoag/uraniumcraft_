@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Uraniumingot"
+        "value": "CUSTOM:Radium.body"
       },
       {
-        "value": "CUSTOM:Poloniumingot"
-      },
-      {
-        "value": "CUSTOM:Uraniumingot"
+        "value": "CUSTOM:Capacitor"
       },
       {
         "value": "CUSTOM:Radium.body"
+      },
+      {
+        "value": "CUSTOM:Radianite"
+      },
+      {
+        "value": "Items.NETHERITE_CHESTPLATE"
+      },
+      {
+        "value": "CUSTOM:Radianite"
       },
       {
         "value": "CUSTOM:Polonium.body"
       },
       {
-        "value": "CUSTOM:Radium.body"
+        "value": "CUSTOM:Capacitor"
       },
       {
-        "value": "CUSTOM:Uraniumingot"
-      },
-      {
-        "value": "CUSTOM:Poloniumingot"
-      },
-      {
-        "value": "CUSTOM:Uraniumingot"
+        "value": "CUSTOM:Polonium.body"
       }
     ],
     "recipeReturnStack": {
