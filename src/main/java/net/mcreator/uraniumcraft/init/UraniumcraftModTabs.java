@@ -18,7 +18,6 @@ public class UraniumcraftModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, UraniumcraftMod.MODID);
 	public static final RegistryObject<CreativeModeTab> URANIUMCRAFT = REGISTRY.register("uraniumcraft",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.uraniumcraft.uraniumcraft")).icon(() -> new ItemStack(UraniumcraftModItems.URANIUMINGOT.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(UraniumcraftModItems.ELEMENTALGOLEM_SPAWN_EGG.get());
 				tabData.accept(UraniumcraftModItems.RADIUMDUST.get());
 				tabData.accept(UraniumcraftModItems.POLONIUMINGOT.get());
 				tabData.accept(UraniumcraftModItems.POLONIUMDUST.get());

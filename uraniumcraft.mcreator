@@ -1,22 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Elementalgolem",
-      "type": "animatedentity",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "elementalgolem",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/uraniumcraft/models/item/elementalgolem_spawn_egg.json",
-          "src/main/java/net/mcreator/uraniumcraft/entity/model/ElementalgolemModel.java",
-          "src/main/java/net/mcreator/uraniumcraft/entity/ElementalgolemEntity.java",
-          "src/main/java/net/mcreator/uraniumcraft/client/renderer/ElementalgolemRenderer.java"
-        ]
-      }
-    },
-    {
       "name": "Radiumdust",
       "type": "item",
       "sortid": 3,
@@ -813,19 +797,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Teste",
-      "type": "code",
-      "sortid": 62,
-      "compiles": false,
-      "locked_code": true,
-      "registry_name": "teste",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/uraniumcraft/Teste.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -841,7 +812,6 @@
       "item.uraniumcraft.uraniums_chestplate": "Plastron Uranium",
       "item.uraniumcraft.hardenediron": "Hardenediron",
       "item.uraniumcraft.radium_chestplate": "Plastron Radium",
-      "entity.uraniumcraft.elementalgolem": "Elementalgolem",
       "item.uraniumcraft.radium_leggings": "Jambières de Radium",
       "item.uraniumcraft.poloniumingot": "Polonium ingot",
       "item.uraniumcraft.radiumdust": "Radiumdust",
@@ -862,7 +832,6 @@
       "item.uraniumcraft.polonium_leggings": "Jambières de Polonium",
       "item.uraniumcraft.uraniums_boots": "Bottes en Uranium",
       "item.uraniumcraft.radioactivewasteland": "Radioactivewasteland Portal Igniter",
-      "item.uraniumcraft.elementalgolem_spawn_egg": "Elementalgolem Spawn Egg",
       "block.uraniumcraft.energeticactivator": "Energeticactivator",
       "block.uraniumcraft.poloniumore": "Poloniumore",
       "block.uraniumcraft.uraniumore": "Uraniumore",

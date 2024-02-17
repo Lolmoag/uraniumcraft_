@@ -33,7 +33,6 @@ import net.mcreator.uraniumcraft.init.UraniumcraftModTabs;
 import net.mcreator.uraniumcraft.init.UraniumcraftModMobEffects;
 import net.mcreator.uraniumcraft.init.UraniumcraftModMenus;
 import net.mcreator.uraniumcraft.init.UraniumcraftModItems;
-import net.mcreator.uraniumcraft.init.UraniumcraftModEntities;
 import net.mcreator.uraniumcraft.init.UraniumcraftModBlocks;
 import net.mcreator.uraniumcraft.init.UraniumcraftModBlockEntities;
 
@@ -58,7 +57,6 @@ public class UraniumcraftMod {
 		UraniumcraftModBlocks.REGISTRY.register(bus);
 		UraniumcraftModBlockEntities.REGISTRY.register(bus);
 		UraniumcraftModItems.REGISTRY.register(bus);
-		UraniumcraftModEntities.REGISTRY.register(bus);
 
 		UraniumcraftModTabs.REGISTRY.register(bus);
 
