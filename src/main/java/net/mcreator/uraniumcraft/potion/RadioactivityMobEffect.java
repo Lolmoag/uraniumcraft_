@@ -21,7 +21,7 @@ public class RadioactivityMobEffect extends MobEffect {
 
 	@Override
 	public void addAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
-		RadioactivityQuandLeffetCommenceEstAppliqueProcedure.execute(entity.level, entity);
+		RadioactivityQuandLeffetCommenceEstAppliqueProcedure.execute(entity.level(), entity);
 	}
 
 	@Override

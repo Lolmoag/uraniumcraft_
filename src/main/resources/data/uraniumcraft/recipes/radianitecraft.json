@@ -2,37 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cdc",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "uraniumcraft:radiumingot"
     },
-    "1": {
+    "b": {
       "item": "uraniumcraft:poloniumingot"
     },
-    "2": {
-      "item": "uraniumcraft:radiumingot"
-    },
-    "3": {
+    "c": {
       "item": "uraniumcraft:uraniumingot"
     },
-    "4": {
+    "d": {
       "item": "uraniumcraft:capacitor"
-    },
-    "5": {
-      "item": "uraniumcraft:uraniumingot"
-    },
-    "6": {
-      "item": "uraniumcraft:radiumingot"
-    },
-    "7": {
-      "item": "uraniumcraft:poloniumingot"
-    },
-    "8": {
-      "item": "uraniumcraft:radiumingot"
     }
   },
   "result": {

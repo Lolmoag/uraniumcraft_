@@ -13,11 +13,11 @@ public class RadioactivityQuandLeffetCommenceEstAppliqueProcedure {
 		if (entity == null)
 			return;
 		UraniumcraftMod.queueServerWork(600, () -> {
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 600, 2, true, false));
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 600, 3, true, false));
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 600, 1, true, false));
 		});
 	}

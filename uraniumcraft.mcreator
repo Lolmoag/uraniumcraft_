@@ -11,8 +11,8 @@
         "files": [
           "src/main/resources/assets/uraniumcraft/models/item/elementalgolem_spawn_egg.json",
           "src/main/java/net/mcreator/uraniumcraft/entity/model/ElementalgolemModel.java",
-          "src/main/java/net/mcreator/uraniumcraft/client/renderer/ElementalgolemRenderer.java",
-          "src/main/java/net/mcreator/uraniumcraft/entity/ElementalgolemEntity.java"
+          "src/main/java/net/mcreator/uraniumcraft/entity/ElementalgolemEntity.java",
+          "src/main/java/net/mcreator/uraniumcraft/client/renderer/ElementalgolemRenderer.java"
         ]
       }
     },
@@ -39,8 +39,8 @@
       "registry_name": "poloniumingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumingotItem.java",
-          "src/main/resources/assets/uraniumcraft/models/item/poloniumingot.json"
+          "src/main/resources/assets/uraniumcraft/models/item/poloniumingot.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumingotItem.java"
         ]
       }
     },
@@ -53,8 +53,8 @@
       "registry_name": "poloniumdust",
       "metadata": {
         "files": [
-          "src/main/resources/assets/uraniumcraft/models/item/poloniumdust.json",
-          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumdustItem.java"
+          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumdustItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/poloniumdust.json"
         ]
       }
     },
@@ -107,8 +107,8 @@
       "registry_name": "uranium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/uraniumcraft/models/item/uranium.json",
-          "src/main/java/net/mcreator/uraniumcraft/item/UraniumItem.java"
+          "src/main/java/net/mcreator/uraniumcraft/item/UraniumItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/uranium.json"
         ]
       }
     },
@@ -159,14 +159,13 @@
       "registry_name": "poloniumore",
       "metadata": {
         "files": [
-          "src/main/resources/data/uraniumcraft/forge/biome_modifier/poloniumore_biome_modifier.json",
-          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/poloniumore.json",
-          "src/main/resources/assets/uraniumcraft/models/block/poloniumore.json",
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/poloniumore.json",
           "src/main/resources/assets/uraniumcraft/models/item/poloniumore.json",
-          "src/main/java/net/mcreator/uraniumcraft/block/PoloniumoreBlock.java",
           "src/main/resources/assets/uraniumcraft/blockstates/poloniumore.json",
-          "src/main/java/net/mcreator/uraniumcraft/world/features/ores/PoloniumoreFeature.java",
-          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/poloniumore.json"
+          "src/main/resources/data/uraniumcraft/forge/biome_modifier/poloniumore_biome_modifier.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/PoloniumoreBlock.java",
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/poloniumore.json",
+          "src/main/resources/assets/uraniumcraft/models/block/poloniumore.json"
         ]
       }
     },
@@ -180,13 +179,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/uraniumcraft/worldgen/configured_feature/radiumore.json",
-          "src/main/resources/assets/uraniumcraft/models/block/radiumore.json",
-          "src/main/java/net/mcreator/uraniumcraft/block/RadiumoreBlock.java",
-          "src/main/resources/assets/uraniumcraft/blockstates/radiumore.json",
           "src/main/resources/assets/uraniumcraft/models/item/radiumore.json",
-          "src/main/java/net/mcreator/uraniumcraft/world/features/ores/RadiumoreFeature.java",
+          "src/main/resources/assets/uraniumcraft/blockstates/radiumore.json",
+          "src/main/resources/assets/uraniumcraft/models/block/radiumore.json",
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/radiumore.json",
           "src/main/resources/data/uraniumcraft/forge/biome_modifier/radiumore_biome_modifier.json",
-          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/radiumore.json"
+          "src/main/java/net/mcreator/uraniumcraft/block/RadiumoreBlock.java"
         ]
       }
     },
@@ -199,14 +197,13 @@
       "registry_name": "uraniumore",
       "metadata": {
         "files": [
-          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/uraniumore.json",
-          "src/main/resources/assets/uraniumcraft/models/item/uraniumore.json",
-          "src/main/resources/assets/uraniumcraft/blockstates/uraniumore.json",
-          "src/main/resources/data/uraniumcraft/forge/biome_modifier/uraniumore_biome_modifier.json",
           "src/main/java/net/mcreator/uraniumcraft/block/UraniumoreBlock.java",
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/uraniumore.json",
           "src/main/resources/data/uraniumcraft/worldgen/placed_feature/uraniumore.json",
+          "src/main/resources/assets/uraniumcraft/blockstates/uraniumore.json",
           "src/main/resources/assets/uraniumcraft/models/block/uraniumore.json",
-          "src/main/java/net/mcreator/uraniumcraft/world/features/ores/UraniumoreFeature.java"
+          "src/main/resources/data/uraniumcraft/forge/biome_modifier/uraniumore_biome_modifier.json",
+          "src/main/resources/assets/uraniumcraft/models/item/uraniumore.json"
         ]
       }
     },
@@ -220,8 +217,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/uraniumcraft/worldgen/placed_feature/ruinedplaine_tree.json",
-          "src/main/resources/data/uraniumcraft/worldgen/biome/ruinedplaine.json",
-          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/ruinedplaine_tree.json"
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/ruinedplaine_tree.json",
+          "src/main/resources/data/uraniumcraft/worldgen/biome/ruinedplaine.json"
         ]
       }
     },
@@ -235,13 +232,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/uraniumcraft/models/item/radioactiveobsidian.json",
-          "src/main/resources/data/uraniumcraft/forge/biome_modifier/radioactiveobsidian_biome_modifier.json",
-          "src/main/java/net/mcreator/uraniumcraft/world/features/ores/RadioactiveobsidianFeature.java",
           "src/main/resources/assets/uraniumcraft/blockstates/radioactiveobsidian.json",
-          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/radioactiveobsidian.json",
+          "src/main/resources/data/uraniumcraft/forge/biome_modifier/radioactiveobsidian_biome_modifier.json",
+          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/radioactiveobsidian.json",
           "src/main/resources/assets/uraniumcraft/models/block/radioactiveobsidian.json",
           "src/main/java/net/mcreator/uraniumcraft/block/RadioactiveobsidianBlock.java",
-          "src/main/resources/data/uraniumcraft/worldgen/configured_feature/radioactiveobsidian.json"
+          "src/main/resources/data/uraniumcraft/worldgen/placed_feature/radioactiveobsidian.json"
         ]
       }
     },
@@ -255,8 +251,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/uraniumcraft/blockstates/radioactivecryingobsidian.json",
-          "src/main/java/net/mcreator/uraniumcraft/block/RadioactivecryingobsidianBlock.java",
           "src/main/resources/assets/uraniumcraft/models/block/radioactivecryingobsidian.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/RadioactivecryingobsidianBlock.java",
           "src/main/resources/assets/uraniumcraft/models/item/radioactivecryingobsidian.json"
         ]
       }
@@ -283,17 +279,17 @@
       "registry_name": "radioactivewasteland",
       "metadata": {
         "files": [
-          "src/main/resources/assets/uraniumcraft/models/block/radioactivewasteland_portal_ew.json",
-          "src/main/java/net/mcreator/uraniumcraft/item/RadioactivewastelandItem.java",
-          "src/main/resources/assets/uraniumcraft/models/item/radioactivewasteland.json",
-          "src/main/java/net/mcreator/uraniumcraft/world/dimension/RadioactivewastelandDimension.java",
-          "src/main/java/net/mcreator/uraniumcraft/world/teleporter/RadioactivewastelandTeleporter.java",
-          "src/main/resources/data/uraniumcraft/dimension/radioactivewasteland.json",
-          "src/main/resources/assets/uraniumcraft/blockstates/radioactivewasteland_portal.json",
           "src/main/java/net/mcreator/uraniumcraft/world/teleporter/RadioactivewastelandPortalShape.java",
+          "src/main/java/net/mcreator/uraniumcraft/world/teleporter/RadioactivewastelandTeleporter.java",
+          "src/main/resources/assets/uraniumcraft/blockstates/radioactivewasteland_portal.json",
+          "src/main/java/net/mcreator/uraniumcraft/world/dimension/RadioactivewastelandDimension.java",
           "src/main/resources/data/uraniumcraft/dimension_type/radioactivewasteland.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/RadioactivewastelandPortalBlock.java",
+          "src/main/java/net/mcreator/uraniumcraft/item/RadioactivewastelandItem.java",
+          "src/main/resources/assets/uraniumcraft/models/block/radioactivewasteland_portal_ew.json",
           "src/main/resources/assets/uraniumcraft/models/block/radioactivewasteland_portal_ns.json",
-          "src/main/java/net/mcreator/uraniumcraft/block/RadioactivewastelandPortalBlock.java"
+          "src/main/resources/data/uraniumcraft/dimension/radioactivewasteland.json",
+          "src/main/resources/assets/uraniumcraft/models/item/radioactivewasteland.json"
         ]
       }
     },
@@ -319,8 +315,8 @@
       "registry_name": "radiumingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/uraniumcraft/models/item/radiumingot.json",
-          "src/main/java/net/mcreator/uraniumcraft/item/RadiumingotItem.java"
+          "src/main/java/net/mcreator/uraniumcraft/item/RadiumingotItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/radiumingot.json"
         ]
       }
     },
@@ -373,11 +369,11 @@
       "registry_name": "radium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/uraniumcraft/item/RadiumItem.java",
-          "src/main/resources/assets/uraniumcraft/models/item/radium_boots.json",
-          "src/main/resources/assets/uraniumcraft/models/item/radium_leggings.json",
           "src/main/resources/assets/uraniumcraft/models/item/radium_chestplate.json",
-          "src/main/resources/assets/uraniumcraft/models/item/radium_helmet.json"
+          "src/main/java/net/mcreator/uraniumcraft/item/RadiumItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/radium_helmet.json",
+          "src/main/resources/assets/uraniumcraft/models/item/radium_leggings.json",
+          "src/main/resources/assets/uraniumcraft/models/item/radium_boots.json"
         ]
       }
     },
@@ -391,10 +387,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/uraniumcraft/models/item/polonium_chestplate.json",
-          "src/main/resources/assets/uraniumcraft/models/item/polonium_leggings.json",
           "src/main/resources/assets/uraniumcraft/models/item/polonium_boots.json",
-          "src/main/resources/assets/uraniumcraft/models/item/polonium_helmet.json",
-          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumItem.java"
+          "src/main/java/net/mcreator/uraniumcraft/item/PoloniumItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/polonium_leggings.json",
+          "src/main/resources/assets/uraniumcraft/models/item/polonium_helmet.json"
         ]
       }
     },
@@ -407,11 +403,11 @@
       "registry_name": "uraniums",
       "metadata": {
         "files": [
-          "src/main/resources/assets/uraniumcraft/models/item/uraniums_boots.json",
-          "src/main/resources/assets/uraniumcraft/models/item/uraniums_helmet.json",
+          "src/main/resources/assets/uraniumcraft/models/item/uraniums_leggings.json",
           "src/main/java/net/mcreator/uraniumcraft/item/UraniumsItem.java",
+          "src/main/resources/assets/uraniumcraft/models/item/uraniums_helmet.json",
           "src/main/resources/assets/uraniumcraft/models/item/uraniums_chestplate.json",
-          "src/main/resources/assets/uraniumcraft/models/item/uraniums_leggings.json"
+          "src/main/resources/assets/uraniumcraft/models/item/uraniums_boots.json"
         ]
       }
     },
@@ -476,11 +472,11 @@
       "registry_name": "energeticactivator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/uraniumcraft/models/item/energeticactivator.json",
-          "src/main/resources/assets/uraniumcraft/models/block/energeticactivator.json",
           "src/main/java/net/mcreator/uraniumcraft/block/entity/EnergeticactivatorBlockEntity.java",
-          "src/main/resources/assets/uraniumcraft/blockstates/energeticactivator.json",
-          "src/main/java/net/mcreator/uraniumcraft/block/EnergeticactivatorBlock.java"
+          "src/main/resources/assets/uraniumcraft/models/block/energeticactivator.json",
+          "src/main/java/net/mcreator/uraniumcraft/block/EnergeticactivatorBlock.java",
+          "src/main/resources/assets/uraniumcraft/models/item/energeticactivator.json",
+          "src/main/resources/assets/uraniumcraft/blockstates/energeticactivator.json"
         ]
       }
     },
@@ -590,8 +586,8 @@
       "registry_name": "capacitor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/uraniumcraft/item/CapacitorItem.java",
-          "src/main/resources/assets/uraniumcraft/models/item/capacitor.json"
+          "src/main/resources/assets/uraniumcraft/models/item/capacitor.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/CapacitorItem.java"
         ]
       }
     },
@@ -604,8 +600,8 @@
       "registry_name": "radianite",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/uraniumcraft/item/RadianiteItem.java",
-          "src/main/resources/assets/uraniumcraft/models/item/radianite.json"
+          "src/main/resources/assets/uraniumcraft/models/item/radianite.json",
+          "src/main/java/net/mcreator/uraniumcraft/item/RadianiteItem.java"
         ]
       }
     },
@@ -817,6 +813,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "Teste",
+      "type": "code",
+      "sortid": 62,
+      "compiles": false,
+      "locked_code": true,
+      "registry_name": "teste",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uraniumcraft/Teste.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -881,10 +890,10 @@
     "mcreatorDependencies": [
       "geckolib"
     ],
-    "currentGenerator": "forge-1.19.4",
+    "currentGenerator": "forge-1.20.1",
     "credits": "created by lolmoag and frivolus",
     "modElementsPackage": "net.mcreator.uraniumcraft",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300224119
+  "mcreatorVersion": 202300452316
 }

@@ -13,8 +13,6 @@
  */
 package net.mcreator.uraniumcraft;
 
-import software.bernie.geckolib.GeckoLib;
-
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -31,10 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.uraniumcraft.init.UraniumcraftModTabs;
 import net.mcreator.uraniumcraft.init.UraniumcraftModMobEffects;
 import net.mcreator.uraniumcraft.init.UraniumcraftModMenus;
 import net.mcreator.uraniumcraft.init.UraniumcraftModItems;
-import net.mcreator.uraniumcraft.init.UraniumcraftModFeatures;
 import net.mcreator.uraniumcraft.init.UraniumcraftModEntities;
 import net.mcreator.uraniumcraft.init.UraniumcraftModBlocks;
 import net.mcreator.uraniumcraft.init.UraniumcraftModBlockEntities;
@@ -58,16 +56,15 @@ public class UraniumcraftMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		UraniumcraftModBlocks.REGISTRY.register(bus);
+		UraniumcraftModBlockEntities.REGISTRY.register(bus);
 		UraniumcraftModItems.REGISTRY.register(bus);
 		UraniumcraftModEntities.REGISTRY.register(bus);
-		UraniumcraftModBlockEntities.REGISTRY.register(bus);
-		UraniumcraftModFeatures.REGISTRY.register(bus);
+
+		UraniumcraftModTabs.REGISTRY.register(bus);
 
 		UraniumcraftModMobEffects.REGISTRY.register(bus);
 
 		UraniumcraftModMenus.REGISTRY.register(bus);
-
-		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

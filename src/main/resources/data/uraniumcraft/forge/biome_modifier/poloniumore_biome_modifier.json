@@ -1,8 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "#is_overworld",
   "features": "uraniumcraft:poloniumore",
   "step": "underground_ores"
 }

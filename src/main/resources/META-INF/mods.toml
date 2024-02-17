@@ -1,20 +1,20 @@
 modLoader="javafml"
-loaderVersion="[45,)"
+loaderVersion="[47,)"
 license="Academic Free License v3.0"
 
 [[mods]]
 modId="uraniumcraft"
 version="1.0.0"
 displayName="uraniumcraft"
-credits="created by lolmoag and frivolus"
 displayURL="https://mcreator.net"
+credits="created by lolmoag and frivolus"
 authors="lolmoag"
 description="a mod based on the radioactive systeme"
 
 [[dependencies.uraniumcraft]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.4]"
+    versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
 

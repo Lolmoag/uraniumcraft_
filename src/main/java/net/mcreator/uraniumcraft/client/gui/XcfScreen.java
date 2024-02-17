@@ -6,12 +6,12 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.uraniumcraft.world.inventory.XcfMenu;
 
 import java.util.HashMap;
 
-import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class XcfScreen extends AbstractContainerScreen<XcfMenu> {
@@ -34,52 +34,40 @@ public class XcfScreen extends AbstractContainerScreen<XcfMenu> {
 	private static final ResourceLocation texture = new ResourceLocation("uraniumcraft:textures/screens/xcf.png");
 
 	@Override
-	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(ms);
-		super.render(ms, mouseX, mouseY, partialTicks);
-		this.renderTooltip(ms, mouseX, mouseY);
+	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
+		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
-	protected void renderBg(PoseStack ms, float partialTicks, int gx, int gy) {
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int gx, int gy) {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		RenderSystem.setShaderTexture(0, texture);
-		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("uraniumcraft:textures/screens/arrow_craft.png"));
-		this.blit(ms, this.leftPos + 107, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("uraniumcraft:textures/screens/arrow_craft.png"), this.leftPos + 107, this.topPos + 36, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"));
-		this.blit(ms, this.leftPos + 99, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"), this.leftPos + 99, this.topPos + 36, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"));
-		this.blit(ms, this.leftPos + 90, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"), this.leftPos + 90, this.topPos + 36, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"));
-		this.blit(ms, this.leftPos + 81, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"), this.leftPos + 81, this.topPos + 36, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"));
-		this.blit(ms, this.leftPos + 73, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"), this.leftPos + 73, this.topPos + 36, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"));
-		this.blit(ms, this.leftPos + 64, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"), this.leftPos + 64, this.topPos + 36, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"));
-		this.blit(ms, this.leftPos + 55, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"), this.leftPos + 55, this.topPos + 36, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"));
-		this.blit(ms, this.leftPos + 45, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"), this.leftPos + 45, this.topPos + 36, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"));
-		this.blit(ms, this.leftPos + 52, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("uraniumcraft:textures/screens/reliure_craft.png"), this.leftPos + 52, this.topPos + 36, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("uraniumcraft:textures/screens/verslebas.png"));
-		this.blit(ms, this.leftPos + 61, this.topPos + 29, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("uraniumcraft:textures/screens/verslebas.png"), this.leftPos + 61, this.topPos + 29, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("uraniumcraft:textures/screens/verslebas.png"));
-		this.blit(ms, this.leftPos + 61, this.topPos + 33, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("uraniumcraft:textures/screens/verslebas.png"), this.leftPos + 61, this.topPos + 33, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
 	}
@@ -99,7 +87,7 @@ public class XcfScreen extends AbstractContainerScreen<XcfMenu> {
 	}
 
 	@Override
-	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 	}
 
 	@Override

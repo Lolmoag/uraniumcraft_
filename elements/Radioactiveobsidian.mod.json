@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "need_a_texture",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Radioactive obsidian",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 70.0,
     "resistance": 1300.0,
     "hasGravity": false,
@@ -117,10 +119,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Nether"
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "#is_nether"
+      }
     ],
-    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.NETHERRACK"

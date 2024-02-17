@@ -31,7 +31,6 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
@@ -44,6 +43,7 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
+import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.uraniumcraft.init.UraniumcraftModEntities;
 
@@ -145,6 +145,19 @@ public class ElementalgolemEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
+	public void addAdditionalSaveData(CompoundTag compound) {
+		super.addAdditionalSaveData(compound);
+		compound.putString("Texture", this.getTexture());
+	}
+
+	@Override
+	public void readAdditionalSaveData(CompoundTag compound) {
+		super.readAdditionalSaveData(compound);
+		if (compound.contains("Texture"))
+			this.setTexture(compound.getString("Texture"));
+	}
+
+	@Override
 	public void baseTick() {
 		super.baseTick();
 		this.refreshDimensions();
@@ -220,9 +233,9 @@ public class ElementalgolemEntity extends Monster implements GeoEntity {
 		float velocity = (float) Math.sqrt(d1 * d1 + d0 * d0);
 		if (getAttackAnim(event.getPartialTick()) > 0f && !this.swinging) {
 			this.swinging = true;
-			this.lastSwing = level.getGameTime();
+			this.lastSwing = level().getGameTime();
 		}
-		if (this.swinging && this.lastSwing + 7L <= level.getGameTime()) {
+		if (this.swinging && this.lastSwing + 7L <= level().getGameTime()) {
 			this.swinging = false;
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
@@ -233,29 +246,14 @@ public class ElementalgolemEntity extends Monster implements GeoEntity {
 	}
 
 	private PlayState procedurePredicate(AnimationState event) {
-		Entity entity = this;
-		Level world = entity.level;
-		boolean loop = false;
-		double x = entity.getX();
-		double y = entity.getY();
-		double z = entity.getZ();
-		if (!loop && this.lastloop) {
-			this.lastloop = false;
+		if (!animationprocedure.equals("empty") && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 			event.getController().setAnimation(RawAnimation.begin().thenPlay(this.animationprocedure));
-			event.getController().forceAnimationReset();
-			return PlayState.STOP;
-		}
-		if (!this.animationprocedure.equals("empty") && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
-			if (!loop) {
-				event.getController().setAnimation(RawAnimation.begin().thenPlay(this.animationprocedure));
-				if (event.getController().getAnimationState() == AnimationController.State.STOPPED) {
-					this.animationprocedure = "empty";
-					event.getController().forceAnimationReset();
-				}
-			} else {
-				event.getController().setAnimation(RawAnimation.begin().thenLoop(this.animationprocedure));
-				this.lastloop = true;
+			if (event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+				this.animationprocedure = "empty";
+				event.getController().forceAnimationReset();
 			}
+		} else if (animationprocedure.equals("empty")) {
+			return PlayState.STOP;
 		}
 		return PlayState.CONTINUE;
 	}

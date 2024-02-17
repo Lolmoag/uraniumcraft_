@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "texture",
@@ -196,7 +196,9 @@
       }
     ],
     "name": "Energeticactivator",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -287,7 +289,7 @@
     "onTickUpdate": {
       "name": "EnergeticactivatorMiseAJourDuTick"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

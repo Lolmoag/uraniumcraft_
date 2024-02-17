@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "need_a_texture",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Uraniumore",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 38.0,
     "resistance": 1500.0,
     "hasGravity": false,
@@ -117,10 +119,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "CUSTOM:Radioactivewasteland"
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Ruinedplaine"
+      }
     ],
-    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE#0"

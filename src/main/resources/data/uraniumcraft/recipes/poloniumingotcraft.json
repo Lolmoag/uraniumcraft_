@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "bbb",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "uraniumcraft:hardenediron"
     },
-    "1": {
+    "b": {
       "item": "uraniumcraft:poloniumdust"
-    },
-    "2": {
-      "item": "uraniumcraft:hardenediron"
-    },
-    "3": {
-      "item": "uraniumcraft:poloniumdust"
-    },
-    "4": {
-      "item": "uraniumcraft:poloniumdust"
-    },
-    "5": {
-      "item": "uraniumcraft:poloniumdust"
-    },
-    "6": {
-      "item": "uraniumcraft:hardenediron"
-    },
-    "7": {
-      "item": "uraniumcraft:poloniumdust"
-    },
-    "8": {
-      "item": "uraniumcraft:hardenediron"
     }
   },
   "result": {

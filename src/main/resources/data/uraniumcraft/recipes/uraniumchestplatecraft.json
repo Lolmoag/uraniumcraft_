@@ -2,36 +2,24 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cdc",
+    "ebe"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "uraniumcraft:radium_chestplate"
     },
-    "1": {
+    "b": {
       "item": "uraniumcraft:capacitor"
     },
-    "2": {
-      "item": "uraniumcraft:radium_chestplate"
-    },
-    "3": {
+    "c": {
       "item": "uraniumcraft:radianite"
     },
-    "4": {
+    "d": {
       "item": "minecraft:netherite_chestplate"
     },
-    "5": {
-      "item": "uraniumcraft:radianite"
-    },
-    "6": {
-      "item": "uraniumcraft:polonium_chestplate"
-    },
-    "7": {
-      "item": "uraniumcraft:capacitor"
-    },
-    "8": {
+    "e": {
       "item": "uraniumcraft:polonium_chestplate"
     }
   },

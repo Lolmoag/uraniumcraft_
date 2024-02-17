@@ -1,8 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "uraniumcraft:ruinedplaine",
   "features": "uraniumcraft:uraniumore",
   "step": "underground_ores"
 }
